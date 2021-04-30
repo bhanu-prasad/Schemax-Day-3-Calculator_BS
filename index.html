@@ -13,12 +13,14 @@
     <script src="script.js"></script>
 </head>
 <body >
-    <div class="main row">
-        <span class="heading col-xs-12 ">Simple Calculator!</span>
+    <div class="main row container-fluid">
+        <div class="col-xs-12 heading" >
+        <span class="heading text-light ">Simple Calculator!</span>
+        </div>
         <div class="banner col-xs-12">
-            <div class="output">
-                <input type="text" class="disp" id="disp" maxlength="15" autofocus>
-                <input type="button" value="C" onclick="clr()" class="btns cbtn">
+            <div class="output row">
+                <input type="text" class="disp col-xs-7" id="disp" maxlength="15" autofocus>
+                <input type="button" value="C" onclick="clr()" class="btns cbtn col-xs-2">
             </div>
             <div class="">
             
